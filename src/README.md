@@ -72,3 +72,4 @@ Lista:
 
 📌 Riferimenti: [linkedin.com/in/giovanni-nicotera](https://linkedin.com/in/giovanni-nicotera)
 
+![Java](https://img.shields.io/badge/Java-24%2B-blue)

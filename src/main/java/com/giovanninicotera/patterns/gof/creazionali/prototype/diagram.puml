@@ -1,0 +1,43 @@
+@startuml
+class Mago {
++ String magia1
++ String magia2
++ String magia3
++ UnitaGames clone()
++ boolean equals(Object)
+}
+
+
+abstract class UnitaGames {
++ int puntiVita
++ int puntiMagia
++ int livello
+# String tipo
++ {abstract}UnitaGames clone()
++ boolean equals(Object)
+}
+
+
+class Orco {
++ String arma2Mani
++ int magiaInfernale
++ UnitaGames clone()
++ boolean equals(Object)
+}
+
+
+class Guerriero {
++ String arma1mano
++ String scudo
++ UnitaGames clone()
++ boolean equals(Object)
+}
+
+
+
+
+UnitaGames <|-- Mago
+Cloneable <|.. UnitaGames
+UnitaGames <|-- Orco
+UnitaGames <|-- Guerriero
+@enduml
